@@ -2,11 +2,11 @@ values = [1, 2, 3, 4, 5, 6]
 
 # puts values.count
 
-# Internal iterator
 # values.each { |e| puts e }
+# Internal iterator
 
-# blocks or function values
 # puts values.map { |e| e - 1 } 
+# blocks or function values
 
 # puts values.find { |e| e % 2 == 0 }
 
@@ -63,7 +63,7 @@ values = [1, 2, 3, 4, 5, 6]
 # Peter create a new postit note with 73 and give it to 
 # John
 
-puts values.inject(0) { |carryOver, e| carryOver + e }
+# puts values.inject(0) { |carryOver, e| carryOver + e }
 
 # 1. carryOver is bound to 0 and e is bound to 1
 # The function returns 1 (carryOver + e)
