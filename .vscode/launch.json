@@ -2,23 +2,30 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/samue/Desktop/COSC_2436/Lab_Assignments/lab7_answers",
-      "program": "c:/Users/samue/Desktop/COSC_2436/Lab_Assignments/lab7_answers/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+        "type": "java",
+        "name": "sample7",
+        "request": "launch",
+        "mainClass": "sample7",
+        "projectName": "Lecture_Code_f19e8f89"
+    },
+    {
+        "name": "C/C++ Runner: Debug Session",
+        "type": "cppdbg",
+        "request": "launch",
+        "args": [],
+        "stopAtEntry": false,
+        "externalConsole": true,
+        "cwd": "c:/Users/samue/Desktop/COSC_2436/Lab_Assignments/lab7_answers",
+        "program": "c:/Users/samue/Desktop/COSC_2436/Lab_Assignments/lab7_answers/build/Debug/outDebug",
+        "MIMode": "gdb",
+        "miDebuggerPath": "gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
     }
-  ]
+]
 }

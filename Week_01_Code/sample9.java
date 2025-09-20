@@ -1,7 +1,7 @@
 // Lecture: ExpressionsAndSymbols
 // Summary: In this program we explore interning with Java.
 
-public class sample8 {
+public class sample9 {
     public static void main(String[] args){
         String bad = new String("hello"); // don't do this
         String greet = "hello";
